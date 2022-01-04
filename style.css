@@ -10,10 +10,17 @@ h1 {
 }
 
 section {
+    background-repeat: no-repeat;
+  
+    
+    
+   
+}
+.good {
     background-image: url(images/top-banner.png) ;
     background-repeat: no-repeat;
-    display: flex;
-   
+  
+    
 }
 .fifty-width {
     width: 50%;
@@ -32,7 +39,42 @@ section {
 
 }
 .dream-big{
-    margin-top: 100px;
+   
     background-image: url(images/dream-bg.png);
     background-position: right;
+}
+.flexing {
+    display: flex;
+}
+.cards{
+    
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0px 60px;
+    margin-bottom: 120px;
+    padding:  50px 6px;
+    border-radius: 10px;
+    
+}
+.experience-area {
+   
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+}
+#front{
+
+    border-left: 8px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+#bc {
+    
+
+        border-left: 8px solid;
+        border-image: linear-gradient(blue,aqua);
+        border-image-slice: 1;
+    
+}
+footer p {
+    text-align: center;
 }
